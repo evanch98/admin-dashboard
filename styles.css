@@ -104,8 +104,17 @@ input[type="search"] {
 
 .header-right {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 80px);
 
+    justify-content: center;
+    place-items: center center;
+}
+
+.header-right-btn {
+    display: grid;
+    grid-template-columns: repeat(3, 140px);
+
+    justify-content: end;
     place-items: center center;
 }
 
