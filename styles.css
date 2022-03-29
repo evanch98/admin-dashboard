@@ -46,6 +46,7 @@ h3 {
 
     display: grid;
     grid-template-columns: 1fr 6fr;
+    gap: 10px;
 
     align-items: center;
 }
@@ -53,6 +54,8 @@ h3 {
 .sidebar-main {
     display: grid;
     gap: 5px;
+
+    align-items: center;
 }
 
 /* Header */
