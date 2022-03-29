@@ -231,7 +231,7 @@ button {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     place-content: start start;
-    gap: 20px;
+    gap: 30px;
 }
 
 .right-card {
