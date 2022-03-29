@@ -17,6 +17,7 @@ h3 {
     margin: 0;
 }
 
+
 /* Grid container for the general layout */
 .layout {
     width: 100%;
@@ -86,6 +87,11 @@ h3 {
     gap: 20px;
 }
 
+.header-left > img {
+    width: 60px;
+    height: auto;
+}
+
 input[type="search"] {
     -webkit-appearance: none;
     appearance: none;
@@ -101,6 +107,11 @@ input[type="search"] {
     grid-template-columns: repeat(3, 1fr);
 
     place-items: center center;
+}
+
+.header-right > img {
+    width: 40px;
+    height: auto;
 }
 
 .header-second {
