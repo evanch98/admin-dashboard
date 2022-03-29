@@ -5,6 +5,11 @@
     font-family: 'Roboto', sans-serif, 'Segoe UI';
 }
 
+img {
+    width: 40px;
+    height: auto;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -119,11 +124,6 @@ input[type="search"] {
 
     justify-content: end;
     place-items: center center;
-}
-
-.header-right > img {
-    width: 40px;
-    height: auto;
 }
 
 .header-second {
@@ -247,4 +247,12 @@ button {
 
 .card-right > div {
     padding: 10px 0px 10px 0px;
+}
+
+.trending-contents {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+
+    align-items: center;
+    gap: 20px;
 }
