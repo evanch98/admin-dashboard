@@ -12,11 +12,14 @@ body {
     width: 100vw;
 }
 
-h3 {
+h3, h4 {
     padding: 0;
     margin: 0;
 }
 
+h4 {
+    font-size: 18px;
+}
 
 /* Grid container for the general layout */
 .layout {
@@ -104,7 +107,7 @@ input[type="search"] {
 
 .header-right {
     display: grid;
-    grid-template-columns: repeat(3, 80px);
+    grid-template-columns: repeat(3, 90px);
 
     justify-content: center;
     place-items: center center;
